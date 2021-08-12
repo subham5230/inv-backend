@@ -14,7 +14,7 @@
     <filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
     <init-param>
       <param-name>cors.allowed.origins</param-name>
-      <param-value>http://localhost:3000</param-value>
+      <param-value>https://invoice-frontend-subham.herokuapp.com</param-value>
     </init-param>
   </filter>
   <filter-mapping>
