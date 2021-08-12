@@ -16,6 +16,10 @@
       <param-name>cors.allowed.origins</param-name>
       <param-value>https://invoice-frontend-subham.herokuapp.com</param-value>
     </init-param>
+    <init-param>
+      <param-name>cors.allowed.origins</param-name>
+      <param-value>https://invoice-backend-subham.herokuapp.com</param-value>
+    </init-param>
   </filter>
   <filter-mapping>
     <filter-name>CorsFilter</filter-name>
