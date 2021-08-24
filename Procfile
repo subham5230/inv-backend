@@ -1,0 +1,1 @@
+web: java -war target/Summer_Internship_Backend-0.0.1-SNAPSHOT.war
