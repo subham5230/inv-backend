@@ -6,11 +6,11 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://remotemysql.com/OTzOemUAv9";
+    private static final String DB_URL = "jdbc:mysql://inv-mng.csmc3g8vtu2g.us-east-2.rds.amazonaws.com/h2h";
 
     // Database credentials
-    private static final String USER = "OTzOemUAv9";
-    private static final String PASS = "ZgJlfgQP9L";
+    private static final String USER = "admin";
+    private static final String PASS = "Ferrari.458";
 
     private Connection conn;
 
